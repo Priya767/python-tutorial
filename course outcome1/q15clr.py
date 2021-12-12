@@ -1,0 +1,7 @@
+clist1 = set(["White", "Black", "Red"])
+clist2 = set(["Red", "Green"])
+s1=set(clist1)
+s2=set(clist2)
+s3=s1.difference(s2)
+print("all colors from color-list not contained in color-list2")
+print(list(s3))
